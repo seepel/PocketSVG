@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B039268D163F072100EF033B /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = B039268C163F072100EF033B /* PocketSVG.m */; };
-		B0392691163F072800EF033B /* BezierCurve1.svg in Resources */ = {isa = PBXBuildFile; fileRef = B039268E163F072800EF033B /* BezierCurve1.svg */; };
 		B0392692163F072800EF033B /* BezierCurve2.svg in Resources */ = {isa = PBXBuildFile; fileRef = B039268F163F072800EF033B /* BezierCurve2.svg */; };
 		B0392693163F072800EF033B /* BezierCurve3.svg in Resources */ = {isa = PBXBuildFile; fileRef = B0392690163F072800EF033B /* BezierCurve3.svg */; };
 		B0A9DB9115CA9B340095DFAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A9DB9015CA9B340095DFAF /* UIKit.framework */; };
@@ -21,12 +20,12 @@
 		B0A9DBA715CA9B340095DFAF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A9DBA515CA9B340095DFAF /* MainStoryboard_iPad.storyboard */; };
 		B0A9DBAA15CA9B340095DFAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A9DBA915CA9B340095DFAF /* ViewController.m */; };
 		B0A9DBC415CAA2380095DFAF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A9DBC315CAA2380095DFAF /* QuartzCore.framework */; };
+		BBC3A4C01834DA410073ECA6 /* BezierCurve1.svg in Resources */ = {isa = PBXBuildFile; fileRef = BBC3A4BF1834DA410073ECA6 /* BezierCurve1.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B039268B163F072100EF033B /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = ../../PocketSVG.h; sourceTree = "<group>"; };
 		B039268C163F072100EF033B /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = ../../PocketSVG.m; sourceTree = "<group>"; };
-		B039268E163F072800EF033B /* BezierCurve1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BezierCurve1.svg; path = ../../BezierCurve1.svg; sourceTree = "<group>"; };
 		B039268F163F072800EF033B /* BezierCurve2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BezierCurve2.svg; path = ../../BezierCurve2.svg; sourceTree = "<group>"; };
 		B0392690163F072800EF033B /* BezierCurve3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BezierCurve3.svg; path = ../../BezierCurve3.svg; sourceTree = "<group>"; };
 		B0A9DB8C15CA9B340095DFAF /* PocketSVG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketSVG.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		B0A9DBA815CA9B340095DFAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0A9DBA915CA9B340095DFAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0A9DBC315CAA2380095DFAF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBC3A4BF1834DA410073ECA6 /* BezierCurve1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BezierCurve1.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		B0A9DB9615CA9B340095DFAF /* PocketSVG */ = {
 			isa = PBXGroup;
 			children = (
-				B039268E163F072800EF033B /* BezierCurve1.svg */,
+				BBC3A4BF1834DA410073ECA6 /* BezierCurve1.svg */,
 				B039268F163F072800EF033B /* BezierCurve2.svg */,
 				B0392690163F072800EF033B /* BezierCurve3.svg */,
 				B0A9DB9F15CA9B340095DFAF /* AppDelegate.h */,
@@ -170,9 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A9DB9B15CA9B340095DFAF /* InfoPlist.strings in Resources */,
+				BBC3A4C01834DA410073ECA6 /* BezierCurve1.svg in Resources */,
 				B0A9DBA415CA9B340095DFAF /* MainStoryboard_iPhone.storyboard in Resources */,
 				B0A9DBA715CA9B340095DFAF /* MainStoryboard_iPad.storyboard in Resources */,
-				B0392691163F072800EF033B /* BezierCurve1.svg in Resources */,
 				B0392692163F072800EF033B /* BezierCurve2.svg in Resources */,
 				B0392693163F072800EF033B /* BezierCurve3.svg in Resources */,
 			);

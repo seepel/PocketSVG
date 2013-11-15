@@ -105,23 +105,31 @@ unichar const invalidCommand		= '*';
     return [self initFromSVGPathNodeDAttr:[self parseSVGNamed:nameOfSVG]];
 }
 
+- (id)initFromSVGFileAtPath:(NSString *)pathOfSVG {
+    return [self initFromSVGPathNodeDAttr:[self parseSVGFileAtPath:pathOfSVG]];
+}
+
 /********
  Returns the content of the SVG's d attribute as an NSString
 */
 -(NSString *)parseSVGNamed:(NSString *)nameOfSVG{
-    
     NSString *pathOfSVGFile = [[NSBundle mainBundle] pathForResource:nameOfSVG ofType:@"svg"];
-    
     if(pathOfSVGFile == nil){
         NSLog(@"*** PocketSVG Error: No SVG file named \"%@\".", nameOfSVG);
         return nil;
     }
     
+    return [self parseSVGFileAtPath:pathOfSVGFile];
+    
+}
+
+-(NSString *)parseSVGFileAtPath:(NSString *)pathOfSVGFile {
+    
     NSError *error = nil;
     NSString *mySVGString = [[NSString alloc] initWithContentsOfFile:pathOfSVGFile encoding:NSStringEncodingConversionExternalRepresentation error:&error];
     
     if(error != nil){
-        NSLog(@"*** PocketSVG Error: Couldn't read contents of SVG file named %@:", nameOfSVG);
+        NSLog(@"*** PocketSVG Error: Couldn't read contents of SVG file at path %@:", pathOfSVGFile);
         NSLog(@"%@", error);
         return nil;
     }

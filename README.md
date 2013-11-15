@@ -1,4 +1,10 @@
 # PocketSVG
+
+## Command Line Tool
+
+This is a quick and dirty hack that I made to this repository to create a command line utility that given an SVG file will spit out the code needed to create a corresponding UIBezierPath. This is useful if you want to start from an SVG file, but modify the control points to suit your needs. For example adding control points or moving them around so you can line up two SVG files for Core Animation to animate smoothly between the two.
+
+## Begin Original README
 An Objective-C class that converts Scalable Vector Graphics (SVG) into:
 * CGPaths
 * CAShapeLayers

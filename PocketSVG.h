@@ -51,6 +51,7 @@
 #endif
 
 - (id)initFromSVGFileNamed:(NSString *)nameOfSVG;
+- (id)initFromSVGFileAtPath:(NSString *)pathOfSVG;
 
 #if !TARGET_OS_IPHONE
 + (CGPathRef)getCGPathFromNSBezierPath:(NSBezierPath *)quartzPath;

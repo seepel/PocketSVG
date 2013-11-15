@@ -18,10 +18,14 @@
     // Insert code here to initialize your application
     
     //1: Create a PocketSVG object from your SVG file:
-    PocketSVG *myVectorDrawing = [[PocketSVG alloc] initFromSVGFileNamed:@"BezierCurve2"];
+    PocketSVG *myVectorDrawing = [[PocketSVG alloc] initFromSVGFileNamed:@"BezierCurve1"];
     
     //2: Its bezier property is the corresponding NSBezierPath:
     NSBezierPath *myBezierPath = myVectorDrawing.bezier;
+    
+    NSAffineTransform *transform = [NSAffineTransform transform];
+    [transform translateXBy:-myBezierPath.bounds.origin.x yBy:-myBezierPath.bounds.origin.y];
+    [myBezierPath transformUsingAffineTransform:transform];
     
     //3: To display it on screen, create a CAShapeLayer:
     //   and call getCGPathFromNSBezierPath to get the

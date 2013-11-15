@@ -13,12 +13,31 @@
 		B03926B4163F087800EF033B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B03926B2163F087800EF033B /* Credits.rtf */; };
 		B03926B7163F087800EF033B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B03926B6163F087800EF033B /* AppDelegate.m */; };
 		B03926BA163F087800EF033B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B03926B8163F087800EF033B /* MainMenu.xib */; };
-		B03926C3163F088400EF033B /* BezierCurve1.svg in Resources */ = {isa = PBXBuildFile; fileRef = B03926C0163F088400EF033B /* BezierCurve1.svg */; };
 		B03926C4163F088400EF033B /* BezierCurve2.svg in Resources */ = {isa = PBXBuildFile; fileRef = B03926C1163F088400EF033B /* BezierCurve2.svg */; };
 		B03926C5163F088400EF033B /* BezierCurve3.svg in Resources */ = {isa = PBXBuildFile; fileRef = B03926C2163F088400EF033B /* BezierCurve3.svg */; };
 		B03926C8163F08A600EF033B /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = B03926C7163F08A600EF033B /* PocketSVG.m */; };
 		B03926CA163F08B400EF033B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03926C9163F08B400EF033B /* QuartzCore.framework */; };
+		BBC3A4AF1834CDDC0073ECA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC3A4AE1834CDDC0073ECA6 /* Foundation.framework */; };
+		BBC3A4B21834CDDC0073ECA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC3A4B11834CDDC0073ECA6 /* main.m */; };
+		BBC3A4B61834CDDC0073ECA6 /* svg2UIKit.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBC3A4B51834CDDC0073ECA6 /* svg2UIKit.1 */; };
+		BBC3A4BA1834CDF10073ECA6 /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = B03926C7163F08A600EF033B /* PocketSVG.m */; };
+		BBC3A4BB1834CF630073ECA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03926C9163F08B400EF033B /* QuartzCore.framework */; };
+		BBC3A4BC1834CFB30073ECA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03926A3163F087800EF033B /* Cocoa.framework */; };
+		BBC3A4BE1834D9350073ECA6 /* BezierCurve1.svg in Resources */ = {isa = PBXBuildFile; fileRef = BBC3A4BD1834D9350073ECA6 /* BezierCurve1.svg */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBC3A4AB1834CDDC0073ECA6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BBC3A4B61834CDDC0073ECA6 /* svg2UIKit.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B039269F163F087800EF033B /* PocketSVG OS X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketSVG OS X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,12 +53,17 @@
 		B03926B5163F087800EF033B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B03926B6163F087800EF033B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B03926B9163F087800EF033B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B03926C0163F088400EF033B /* BezierCurve1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BezierCurve1.svg; path = ../../BezierCurve1.svg; sourceTree = "<group>"; };
 		B03926C1163F088400EF033B /* BezierCurve2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BezierCurve2.svg; path = ../../BezierCurve2.svg; sourceTree = "<group>"; };
 		B03926C2163F088400EF033B /* BezierCurve3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BezierCurve3.svg; path = ../../BezierCurve3.svg; sourceTree = "<group>"; };
 		B03926C6163F08A600EF033B /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = ../../../PocketSVG.h; sourceTree = "<group>"; };
 		B03926C7163F08A600EF033B /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = ../../../PocketSVG.m; sourceTree = "<group>"; };
 		B03926C9163F08B400EF033B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBC3A4AD1834CDDC0073ECA6 /* svg2UIKit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = svg2UIKit; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC3A4AE1834CDDC0073ECA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBC3A4B11834CDDC0073ECA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBC3A4B41834CDDC0073ECA6 /* svg2UIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "svg2UIKit-Prefix.pch"; sourceTree = "<group>"; };
+		BBC3A4B51834CDDC0073ECA6 /* svg2UIKit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = svg2UIKit.1; sourceTree = "<group>"; };
+		BBC3A4BD1834D9350073ECA6 /* BezierCurve1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BezierCurve1.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,16 +76,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBC3A4AA1834CDDC0073ECA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC3A4BC1834CFB30073ECA6 /* Cocoa.framework in Frameworks */,
+				BBC3A4BB1834CF630073ECA6 /* QuartzCore.framework in Frameworks */,
+				BBC3A4AF1834CDDC0073ECA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B0392694163F087800EF033B = {
 			isa = PBXGroup;
 			children = (
-				B03926C0163F088400EF033B /* BezierCurve1.svg */,
+				BBC3A4BD1834D9350073ECA6 /* BezierCurve1.svg */,
 				B03926C1163F088400EF033B /* BezierCurve2.svg */,
 				B03926C2163F088400EF033B /* BezierCurve3.svg */,
 				B03926A9163F087800EF033B /* PocketSVG OS X */,
+				BBC3A4B01834CDDC0073ECA6 /* svg2UIKit */,
 				B03926A2163F087800EF033B /* Frameworks */,
 				B03926A0163F087800EF033B /* Products */,
 			);
@@ -71,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B039269F163F087800EF033B /* PocketSVG OS X.app */,
+				BBC3A4AD1834CDDC0073ECA6 /* svg2UIKit */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +116,7 @@
 			children = (
 				B03926C9163F08B400EF033B /* QuartzCore.framework */,
 				B03926A3163F087800EF033B /* Cocoa.framework */,
+				BBC3A4AE1834CDDC0073ECA6 /* Foundation.framework */,
 				B03926A5163F087800EF033B /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -120,6 +157,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BBC3A4B01834CDDC0073ECA6 /* svg2UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3A4B11834CDDC0073ECA6 /* main.m */,
+				BBC3A4B51834CDDC0073ECA6 /* svg2UIKit.1 */,
+				BBC3A4B31834CDDC0073ECA6 /* Supporting Files */,
+			);
+			path = svg2UIKit;
+			sourceTree = "<group>";
+		};
+		BBC3A4B31834CDDC0073ECA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3A4B41834CDDC0073ECA6 /* svg2UIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +194,23 @@
 			productName = "PocketSVG OS X";
 			productReference = B039269F163F087800EF033B /* PocketSVG OS X.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BBC3A4AC1834CDDC0073ECA6 /* svg2UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC3A4B91834CDDC0073ECA6 /* Build configuration list for PBXNativeTarget "svg2UIKit" */;
+			buildPhases = (
+				BBC3A4A91834CDDC0073ECA6 /* Sources */,
+				BBC3A4AA1834CDDC0073ECA6 /* Frameworks */,
+				BBC3A4AB1834CDDC0073ECA6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svg2UIKit;
+			productName = svg2UIKit;
+			productReference = BBC3A4AD1834CDDC0073ECA6 /* svg2UIKit */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				B039269E163F087800EF033B /* PocketSVG OS X */,
+				BBC3A4AC1834CDDC0073ECA6 /* svg2UIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -172,9 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03926AE163F087800EF033B /* InfoPlist.strings in Resources */,
+				BBC3A4BE1834D9350073ECA6 /* BezierCurve1.svg in Resources */,
 				B03926B4163F087800EF033B /* Credits.rtf in Resources */,
 				B03926BA163F087800EF033B /* MainMenu.xib in Resources */,
-				B03926C3163F088400EF033B /* BezierCurve1.svg in Resources */,
 				B03926C4163F088400EF033B /* BezierCurve2.svg in Resources */,
 				B03926C5163F088400EF033B /* BezierCurve3.svg in Resources */,
 			);
@@ -190,6 +263,15 @@
 				B03926B0163F087800EF033B /* main.m in Sources */,
 				B03926B7163F087800EF033B /* AppDelegate.m in Sources */,
 				B03926C8163F08A600EF033B /* PocketSVG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC3A4A91834CDDC0073ECA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC3A4BA1834CDF10073ECA6 /* PocketSVG.m in Sources */,
+				BBC3A4B21834CDDC0073ECA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +382,49 @@
 			};
 			name = Release;
 		};
+		BBC3A4B71834CDDC0073ECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "svg2UIKit/svg2UIKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBC3A4B81834CDDC0073ECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "svg2UIKit/svg2UIKit-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +442,15 @@
 			buildConfigurations = (
 				B03926BE163F087800EF033B /* Debug */,
 				B03926BF163F087800EF033B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC3A4B91834CDDC0073ECA6 /* Build configuration list for PBXNativeTarget "svg2UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC3A4B71834CDDC0073ECA6 /* Debug */,
+				BBC3A4B81834CDDC0073ECA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

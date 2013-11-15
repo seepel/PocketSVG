@@ -40,6 +40,7 @@
     
     //2: Its bezier property is the corresponding UIBezierPath:
     UIBezierPath *myBezierPath = myVectorDrawing.bezier;
+    [myBezierPath applyTransform:CGAffineTransformMakeTranslation(-myBezierPath.bounds.origin.x, -myBezierPath.bounds.origin.y)];
     
     
     //3: To display it on screen, create a CAShapeLayer and set 
